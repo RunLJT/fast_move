@@ -1,6 +1,8 @@
 package base;
 
 public class Location {
+
+    public static Location CONSTRUCTOR;
     private final double latitude,longitude;
 
     public Location(double latitude, double longitude) {
